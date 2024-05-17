@@ -25,7 +25,7 @@ with open('wtb.html', 'r', encoding='utf-8') as file:
             # 获取图片的src地址
             ariaLabel = a['aria-label']
             href = a['href']
-            if "5年前" in ariaLabel:
+            if "1年前" in ariaLabel:
                 mp3_data = Mp3Data()
                 title = re.sub(r"\s+", "", a.text)
                 # 下载
